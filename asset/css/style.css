@@ -1,1 +1,17 @@
-/*# sourceMappingURL=style.css.map */
+.navbar {
+  background-color: #febe98;
+}
+.navbar .navbar-brand {
+  color: #532824;
+}
+.navbar form input {
+  border-color: #532824;
+}
+.navbar form button {
+  color: #532824;
+  border-color: #532824;
+}
+.navbar .cartButton {
+  color: #532824;
+  border-color: #532824;
+}/*# sourceMappingURL=style.css.map */
