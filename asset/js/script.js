@@ -1,2 +1,4 @@
-// TODO: 9h30 JSON dans le dossier
 //TODO: Ne pas oublier le disclaimer des placeholder
+//TODO: page sticker : Affichage des cartes, et de tous les stickers
+//TODO: page sticker : pagination et filtres
+
