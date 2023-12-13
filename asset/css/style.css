@@ -10,8 +10,18 @@
   margin: 0 auto;
   border: 2px black solid;
 }
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+  }
+}
 .carousel .carousel-item img {
   height: 500px;
+}
+@media (max-width: 768px) {
+  .carousel .carousel-item img {
+    height: 200px;
+  }
 }
 
 footer {

@@ -1,21 +1,31 @@
 .navbar {
     background-color: #febe98;
+
     .navbar-brand {
-        color:#532824;
-        
+        color: #532824;
+
     }
-    
+
 }
 
-.carousel{
+.carousel {
     width: 50%;
     margin: 0 auto;
     border: 2px black solid;
-    .carousel-item img{
+
+    @media (max-width:768px) {
+        width: 100%;
+    }
+
+    .carousel-item img {
         height: 500px;
+
+        @media (max-width:768px) {
+            height: 200px;
+        }
     }
 }
 
-footer{
+footer {
     background-color: #febe98;
 }
