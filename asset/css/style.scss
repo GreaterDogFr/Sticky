@@ -7,6 +7,15 @@
     
 }
 
+.carousel{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px black solid;
+    .carousel-item img{
+        height: 500px;
+    }
+}
+
 footer{
     background-color: #febe98;
 }

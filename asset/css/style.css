@@ -5,6 +5,15 @@
   color: #532824;
 }
 
+.carousel {
+  width: 50%;
+  margin: 0 auto;
+  border: 2px black solid;
+}
+.carousel .carousel-item img {
+  height: 500px;
+}
+
 footer {
   background-color: #febe98;
 }/*# sourceMappingURL=style.css.map */
