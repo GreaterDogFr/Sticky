@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #febe98;
+
+    .navbar-brand {
+        color: #532824;
+
+    }
+
+    .spacenav {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width:768px) {
+            flex-flow: column;
+            align-items: start;
+        }
+
+        .cartButton {
+            color: #532824;
+            border-color: #532824;
+
+        }
+
+        .cartButton:hover {
+            background-color: #532824;
+            color: white;
+        }
+    }
+
+}
