@@ -6,12 +6,33 @@
 
     }
 
+    .spacenav {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width:768px) {
+            flex-flow: column;
+            align-items: start;
+        }
+
+        .cartButton {
+            color: #532824;
+            border-color: #532824;
+
+        }
+
+        .cartButton:hover {
+            background-color: #532824;
+            color: white;
+        }
+    }
+
 }
 
 .carousel {
     width: 50%;
     margin: 0 auto;
-    border: 2px black solid;
+    // border: 2px black solid;
 
     @media (max-width:768px) {
         width: 100%;
