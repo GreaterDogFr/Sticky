@@ -21,4 +21,8 @@
 .navbar .spacenav .cartButton:hover {
   background-color: #532824;
   color: white;
+}
+
+.card.img.img {
+  width: 10rem;
 }/*# sourceMappingURL=styleproduit.css.map */
