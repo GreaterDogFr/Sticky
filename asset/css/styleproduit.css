@@ -37,6 +37,8 @@
   margin-left: 2.5rem;
 }
 
-.parent {
-  justify-content: center;
+body #parent {
+  display: flex;
+  justify-content: space-evenly !important;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=styleproduit.css.map */

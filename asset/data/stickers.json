@@ -8,7 +8,8 @@
         "Authors": "author1",
         "Images": "boude.png",
         "Stock": "10",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "Sailor moon 1"
     },
     {
         "Id_Stickers": "2",
@@ -19,7 +20,8 @@
         "Authors": "author2",
         "Images": "baka.png",
         "Stock": "10",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "Sailor moon 2"
     },
     {
         "Id_Stickers": "3",
@@ -30,7 +32,8 @@
         "Authors": "author3",
         "Images": "g5.png",
         "Stock": "9",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "Gear fifth✨"
     },
     {
         "Id_Stickers": "4",
@@ -41,7 +44,8 @@
         "Authors": "author4",
         "Images": "gojo.png",
         "Stock": "15",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "Daddy❤️"
     },
     {
         "Id_Stickers": "5",
@@ -52,7 +56,8 @@
         "Authors": "author5",
         "Images": "goku.png",
         "Stock": "1",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "Goku"
     },
     {
         "Id_Stickers": "6",
@@ -63,7 +68,8 @@
         "Authors": "author6",
         "Images": "nope.png",
         "Stock": "8",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "Nope"
     },
     {
         "Id_Stickers": "7",
@@ -74,7 +80,8 @@
         "Authors": "author7",
         "Images": "one_piece.png",
         "Stock": "70",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "One piece luffy's Flag"
     },
     {
         "Id_Stickers": "8",
@@ -85,7 +92,8 @@
         "Authors": "author8",
         "Images": "sailor.png",
         "Stock": "40",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "Sailor moon 3"
     },
     {
         "Id_Stickers": "9",
@@ -96,7 +104,8 @@
         "Authors": "author9",
         "Images": "tortuegenial.png",
         "Stock": "65",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "Kame sennin"
     },
     {
         "Id_Stickers": "10",
@@ -107,7 +116,8 @@
         "Authors": "author10",
         "Images": "vegeta.png",
         "Stock": "10",
-        "Id_supplier": "1"
+        "Id_supplier": "1",
+        "name": "Vegeta"
     },
     {
         "Id_Stickers": "11",
@@ -118,7 +128,8 @@
         "Authors": "author11",
         "Images": "88MphGaragage.jpg",
         "Stock": "10",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "delorean dmc-12"
     },
     {
         "Id_Stickers": "12",
@@ -129,7 +140,8 @@
         "Authors": "author11",
         "Images": "DarkSide.jpg",
         "Stock": "10",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "DarkSide"
     },
     {
         "Id_Stickers": "13",
@@ -140,7 +152,8 @@
         "Authors": "author11",
         "Images": "DundlerMifflinLogo.jpg",
         "Stock": "9",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "DundlerMifflin inc"
     },
     {
         "Id_Stickers": "14",
@@ -151,7 +164,8 @@
         "Authors": "author11",
         "Images": "EndorTouristjpg.jpg",
         "Stock": "15",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Endor National Park"
     },
     {
         "Id_Stickers": "15",
@@ -162,7 +176,8 @@
         "Authors": "author12",
         "Images": "MustafarTourist.jpg",
         "Stock": "1",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Mustafar National Park"
     },
     {
         "Id_Stickers": "16",
@@ -173,7 +188,8 @@
         "Authors": "author5",
         "Images": "NostromoLogo.jpg",
         "Stock": "8",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Nostromo"
     },
     {
         "Id_Stickers": "17",
@@ -184,7 +200,8 @@
         "Authors": "author5",
         "Images": "SimsponBackAwaay.jpg",
         "Stock": "70",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Homer Hide"
     },
     {
         "Id_Stickers": "18",
@@ -195,7 +212,8 @@
         "Authors": "author8",
         "Images": "SkynetLogo.jpg",
         "Stock": "40",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Skynet"
     },
     {
         "Id_Stickers": "19",
@@ -206,7 +224,8 @@
         "Authors": "author8",
         "Images": "TatooineTourist.jpg",
         "Stock": "65",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Tatooine National Park"
     },
     {
         "Id_Stickers": "20",
@@ -217,7 +236,8 @@
         "Authors": "author8",
         "Images": "WhereIsMyMind.jpg",
         "Stock": "10",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Where Is My Mind"
     },
     {
         "Id_Stickers": "21",
@@ -228,7 +248,8 @@
         "Authors": "author1",
         "Images": "carap.png",
         "Stock": "10",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Scuttle Crab Knif"
     },
     {
         "Id_Stickers": "22",
@@ -239,7 +260,8 @@
         "Authors": "author1",
         "Images": "cursed.png",
         "Stock": "10",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Poppy Easy LP"
     },
     {
         "Id_Stickers": "23",
@@ -250,7 +272,8 @@
         "Authors": "author2",
         "Images": "dragon.png",
         "Stock": "9",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Roll To Seduce The Dragon"
     },
     {
         "Id_Stickers": "24",
@@ -261,7 +284,8 @@
         "Authors": "author2",
         "Images": "feed.png",
         "Stock": "15",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "I don't Feed"
     },
     {
         "Id_Stickers": "25",
@@ -272,7 +296,8 @@
         "Authors": "author12",
         "Images": "flo.png",
         "Stock": "1",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "FLO"
     },
     {
         "Id_Stickers": "26",
@@ -283,7 +308,8 @@
         "Authors": "author5",
         "Images": "roll.png",
         "Stock": "8",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "ROll"
     },
     {
         "Id_Stickers": "27",
@@ -294,7 +320,8 @@
         "Authors": "author5",
         "Images": "pas_flo.png",
         "Stock": "70",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Not Flo"
     },
     {
         "Id_Stickers": "28",
@@ -305,7 +332,8 @@
         "Authors": "author9",
         "Images": "sf.png",
         "Stock": "40",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Street Fighter Ken & Ryu"
     },
     {
         "Id_Stickers": "29",
@@ -316,7 +344,8 @@
         "Authors": "author9",
         "Images": "life.png",
         "Stock": "65",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Life"
     },
     {
         "Id_Stickers": "30",
@@ -327,6 +356,7 @@
         "Authors": "author9",
         "Images": "hollow.png",
         "Stock": "10",
-        "Id_supplier": "2"
+        "Id_supplier": "2",
+        "name": "Hollow Knight"
     }
 ]

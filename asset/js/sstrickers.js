@@ -9,7 +9,7 @@ fetch('../asset/data/stickers.json')
 
             <img src="../asset/img/${element.Images}" class="card-img-top stick" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Stickers</h5>
+                <h5 class="card-title">${element.Reference}</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's
                     content.</p>
