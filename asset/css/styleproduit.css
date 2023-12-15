@@ -42,27 +42,4 @@ body #parent {
   justify-content: space-evenly !important;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
-}
-
-body {
-  display: grid;
-  grid-template-rows: 1fr auto; /* 1fr pour le contenu, auto pour le pied de page */
-  margin: 0;
-}
-body .navp {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-body .imgProduit {
-  display: flex;
-  align-items: center;
-  margin-left: 2.5rem;
-}
-body .infoProduit {
-  margin-left: 20px;
-}
-body .produitf {
-  background-color: #f2f2f2;
-  padding: 10px;
-  text-align: center;
 }/*# sourceMappingURL=styleproduit.css.map */

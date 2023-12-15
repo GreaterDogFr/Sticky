@@ -25,7 +25,7 @@ fetch('./asset/data/stickers.json')
                             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
                                 integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
                             <link rel="stylesheet" href="asset/css/style.css">
-                            <link rel="stylesheet" href="./asset/css/styleproduit.css">
+                            <link rel="stylesheet" href="./asset/css/stylejs.css">
                         </head>
                         <body>
                             <nav class="navbar navbar-expand-md navp">
@@ -70,14 +70,22 @@ fetch('./asset/data/stickers.json')
                                 </div>
                             </div>
                         </div>
-                        <div class="imgProduit">
-                            <img src="../asset/img/${element.Images}" class="card-img-top stick" alt="...">
-                        </div>
+                        <div id="boxe">
+                            <div class="imgProduit">
+                                <img src="../asset/img/${element.Images}" class="card-img-top stick" alt="...">
+                                <title>${element.name}</title>
+                                <div class="infoProduit">
+                                <p>Prix: ${element.Price}€</p>
+                                <p>Description: ${element.description}</p>
+                                // <div class="button">
+                                //     <a href="#" class="btn btn-primary">Acheter</a>
+                                //     <button class="btn btn-light"><i class="bi bi-suit-heart"></i> Favoris</button>
+                                // </div>
+                                </div>
+                                
+                            </div>
+                            
 
-                        <div class="infoProduit">
-                            <title>${element.name}</title>
-                            <p>Prix: ${element.Price}€</p>
-                            <p>Description: ${element.description}</p>
                         </div>
 
                             <footer class="bottom py-3 produitf">

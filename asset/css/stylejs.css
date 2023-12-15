@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin: 0;
+}
+body .imgProduit {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+}
+body .produitf {
+  background-color: #febe98;
+  padding: 10px;
+  text-align: center;
+}
+
+.infoProduit {
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+  position: relative;
+  float: right;
+}
+
+#boxe {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=stylejs.css.map */

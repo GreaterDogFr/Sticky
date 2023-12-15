@@ -52,30 +52,4 @@ body {
 
     }
 }
-body{
-    display: grid;
-    grid-template-rows: 1fr auto; 
-    margin: 0;
-
-    .navp{
-        height: fit-content;
-    }
-    
-    .imgProduit{
-        display: flex;
-        align-items: center;
-        margin-left: 2.5rem;
-    }
-
-    .infoProduit{
-        margin-left: 20px;
-    }
-    
-    .produitf {
-        background-color: #febe98;
-        padding: 10px;
-        text-align: center;
-    }
-}
-
 
