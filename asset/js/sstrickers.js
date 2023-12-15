@@ -28,7 +28,7 @@ fetch('./asset/data/stickers.json')
                             <link rel="stylesheet" href="./asset/css/styleproduit.css">
                         </head>
                         <body>
-                            <nav class="navbar navbar-expand-md">
+                            <nav class="navbar navbar-expand-md navp">
                                 <div class="container-fluid">
                                     <a class="navbar-brand" href="#">Sticky</a>
 
@@ -70,12 +70,17 @@ fetch('./asset/data/stickers.json')
                                 </div>
                             </div>
                         </div>
-                        <title>${element.name}</title>
+                        <div class="imgProduit">
                             <img src="../asset/img/${element.Images}" class="card-img-top stick" alt="...">
+                        </div>
+
+                        <div class="infoProduit">
+                            <title>${element.name}</title>
                             <p>Prix: ${element.Price}€</p>
                             <p>Description: ${element.description}</p>
-                            
-                            <footer class="bottom py-3">
+                        </div>
+
+                            <footer class="bottom py-3 produitf">
                                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Accueil</a></li>
                                 <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">A propos de nous</a></li>
@@ -84,9 +89,8 @@ fetch('./asset/data/stickers.json')
                                 <p class="text-center text-body-secondary">© 2023 Sticky, Inc</p>
                             </footer>
                             <script src="../asset/js/sstrickers.js"></script>
-                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                                crossorigin="anonymous"></script>
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
                         </body>
 
                     </html>
