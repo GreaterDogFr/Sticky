@@ -13,9 +13,9 @@ fetch('./asset/data/stickers.json')
                     <button class="btn btn-light"><i class="bi bi-suit-heart"></i> Favoris</button>
                 </div>`;
 
-            // Ajoutez un gestionnaire d'événements pour le clic sur l'image
+            // gestionnaire d'événements pour le clic sur l'image
             card.addEventListener('click', function () {
-                // Ouvrez une nouvelle page HTML générée en JavaScript
+                // ouvrir une nouvelle page HTML générée en JavaScript
                 const newPage = window.open('', '_blank');
                 newPage.document.write(`
                     <html>
@@ -77,10 +77,10 @@ fetch('./asset/data/stickers.json')
                                 <div class="infoProduit">
                                 <p>Prix: ${element.Price}€</p>
                                 <p>Description: ${element.description}</p>
-                                // <div class="button">
-                                //     <a href="#" class="btn btn-primary">Acheter</a>
-                                //     <button class="btn btn-light"><i class="bi bi-suit-heart"></i> Favoris</button>
-                                // </div>
+                                 <div class="button">
+                                   <a href="#" class="btn btn-primary">Acheter</a>
+                                    <button class="btn btn-light"><i class="bi bi-suit-heart"></i> Favoris</button>
+                                 </div>
                                 </div>
                                 
                             </div>
