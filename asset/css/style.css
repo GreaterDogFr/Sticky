@@ -41,6 +41,15 @@
   }
 }
 
+.previewCartImg {
+  width: 32px;
+  height: 32px;
+}
+
+.itemQuantity {
+  width: 50px;
+}
+
 footer {
   background-color: #febe98;
 }/*# sourceMappingURL=style.css.map */

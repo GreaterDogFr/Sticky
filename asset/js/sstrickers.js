@@ -5,16 +5,16 @@ fetch('./asset/data/stickers.json')
             const card = document.createElement('div');
             card.classList.add('card');
             card.innerHTML = `
-                <img src="../asset/img/${element.Images}" class="card-img-top stick" alt="...">
+                <img id="imgCard" src="../asset/img/${element.Images}" class="card-img-top stick" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${element.name}</h5>
                     <p class="card-text">${element.Price}€</p>
-                    <a href="#" class="btn btn-primary">Acheter</a>
+                    <button onclick="addToCart(${element.Id_Stickers},'${element.Reference}','${element.Images}', '${element.name}', ${element.Price})" class="btn btn-primary">Acheter</button>
                     <button class="btn btn-light"><i class="bi bi-suit-heart"></i> Favoris</button>
                 </div>`;
 
             // Ajoutez un gestionnaire d'événements pour le clic sur l'image
-            card.addEventListener('click', function () {
+            card.querySelector("img").addEventListener('click', function () {
                 // Ouvrez une nouvelle page HTML générée en JavaScript
                 const newPage = window.open('', '_blank');
                 newPage.document.write(`
@@ -77,10 +77,10 @@ fetch('./asset/data/stickers.json')
                                 <div class="infoProduit">
                                 <p>Prix: ${element.Price}€</p>
                                 <p>Description: ${element.description}</p>
-                                // <div class="button">
-                                //     <a href="#" class="btn btn-primary">Acheter</a>
-                                //     <button class="btn btn-light"><i class="bi bi-suit-heart"></i> Favoris</button>
-                                // </div>
+                                <div class="button">
+                                <a href="#" class="btn btn-primary">Acheter</a>
+                                    <button class="btn btn-light"><i class="bi bi-suit-heart"></i> Favoris</button>
+                                </div>
                                 </div>
                                 
                             </div>
@@ -107,4 +107,77 @@ fetch('./asset/data/stickers.json')
 
             document.querySelector('#parent').appendChild(card);
         });
+
     });
+
+//panier
+
+const cartItemsList = document.getElementById('cartItems')
+
+const cart = []
+
+function addToCart(productId, productRef, productImg, productName, productPrice) {
+    const existingItem = cart.find(item => item.id === productId)
+
+    if (existingItem) {
+        existingItem.quantity += 1;
+    } else {
+        cart.push({ id: productId, ref: productRef, img: productImg, name: productName, price: productPrice, quantity: 1 });
+    }
+
+    updateCart();
+    console.log(cart)
+}
+
+function updateCart() {
+    cartItems.innerHTML = ""
+
+    cart.forEach(item => {
+        const ItemPriceTotal = item.quantity * item.price
+        const cartItem = document.createElement('div')
+        cartItem.innerHTML = `
+        <img class="previewCartImg" src=../asset/img/${item.img}>
+        <span>${item.name}</span>
+        <span>REF${item.ref}</span>
+        <span>
+            <input class="itemQuantity" type="number" value="${item.quantity}" min="1" onchange="updateQuantity(${item.id},this.value)"></input>
+        </span>
+        <span>Prix: ${item.price}€</span>
+        </br>
+        <span>Sous-total: ${ItemPriceTotal}€ </span>
+        <button onclick="deleteItemCart(${item.id})">[X]</button>
+        `
+        //TODO: insérer classe boostrap
+        cartItemsList.appendChild(cartItem)
+
+    })
+
+    const totalPriceCart = cart.reduce((acc, item) => acc + item.quantity * item.price, 0)
+
+    const totalPrice = document.createElement('div');
+    totalPrice.classList.add('cart-total');
+    totalPrice.textContent = `Total du panier : ${totalPriceCart}€`;
+    cartItemsList.appendChild(totalPrice);
+
+    const buyCart = document.createElement('button');
+    buyCart.innerHTML = `Acheter`
+    //TODO: insérer classe bootstrap
+    cartItemsList.appendChild(buyCart);
+}
+
+function updateQuantity(itemId, newQuantity) {
+    const itemIndex = cart.findIndex(item => item.id === itemId);
+
+    if (itemIndex !== -1) {
+        newQuantity = Math.max(1, parseInt(newQuantity));
+
+        cart[itemIndex].quantity = newQuantity;
+        updateCart();
+    }
+}
+
+function deleteItemCart(itemId) {
+    const newCart = cart.filter(item => item.id !== itemId);
+
+    updateCart(newCart);
+}
