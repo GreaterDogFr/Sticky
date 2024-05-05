@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #febe98;
+}
+.navbar .navbar-brand {
+  color: #532824;
+}
+.navbar .spacenav {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .navbar .spacenav {
+    flex-flow: column;
+    align-items: start;
+  }
+}
+.navbar .spacenav .cartButton {
+  color: #532824;
+  border-color: #532824;
+}
+.navbar .spacenav .cartButton:hover {
+  background-color: #532824;
+  color: white;
+}
+
+.carousel {
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+  }
+}
+.carousel .carousel-item img {
+  height: 500px;
+}
+@media (max-width: 768px) {
+  .carousel .carousel-item img {
+    height: 200px;
+  }
+}
+
+footer {
+  background-color: #febe98;
+}/*# sourceMappingURL=style.css.map */
